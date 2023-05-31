@@ -1,0 +1,31 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--color-alura);
+  }
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    --color-base: #EEEEEE;
+    --color-gris-oscuro: #393E46;
+    --color-verde: #00ADB5;
+    --color-verde2: #76C893;
+    --color-gris-claro: #D9D9D9;
+    --color-black: #000814;
+    --color-white: #ffffff;
+    --inter: "Inter", sans-serif;
+  }
+  
+  body {
+    font-size: 62.5%;
+    font-family: var(--inter);
+    background-color: var(--color-base);
+    margin: 0;
+    padding: 0;
+  }
